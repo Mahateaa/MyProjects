@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff5f8;
+    color: #333;
+}
+
+header {
+    background-color: #ff6b8a;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #ffe0e8;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #ff2d55;
+}
+
+.hero p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: #ff2d55;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.content-section {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    color: #ff2d55;
+    margin-bottom: 2rem;
+}
+
+.mission-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.mission-cards .card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    width: 25%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mission-cards .card h3 {
+    font-size: 1.5rem;
+    color: #ff6b8a;
+    margin-bottom: 1rem;
+}
+
+.stories {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.story {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story h3 {
+    font-size: 1.5rem;
+    color: #ff6b8a;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #ff6b8a;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
